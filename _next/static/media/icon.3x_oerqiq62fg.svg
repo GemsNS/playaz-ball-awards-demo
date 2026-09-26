@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-50 -50 100 100" width="64" height="64">
+  <title>Playaz Ball Awards</title>
+  <!--
+    The site's eight-petal rosette, redrawn for tab size. The UI glyph is a
+    2.4-unit outline, which vanishes below about 24px, so here the petals are
+    solid: at 16px the mark still reads as a gold flower with a dark eye.
+    The petals reach to 4 units from the edge so the flower fills the tab
+    square, and the eye is a fifth of the width so it survives as a dark
+    pixel cluster at 16px instead of closing up.
+
+    Colours are copies of the tokens in src/app/globals.css (an icon file
+    cannot read CSS variables): ink = the tile, gold = the field of petals,
+    gold-light = a smaller inner petal that gives the flower a lit centre, the
+    way the halo lights the tower on the site. Change them together with the
+    tokens.
+
+    The site's palette is gold, black, purple and white; this mark deliberately
+    carries only the first two. The rosette is awards furniture — it is the
+    trophy, not the night — so the violet that recoloured every surface and the
+    sky does not reach it, and none of these three values moved in that
+    re-theme. The cost is that a browser tab and a bookmark still look exactly
+    like the old site.
+  -->
+  <rect x="-50" y="-50" width="100" height="100" rx="6" fill="#000000" />
+  <g fill="#cfa64c">
+    <ellipse cx="0" cy="-26" rx="10" ry="20" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(45)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(90)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(135)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(180)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(225)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(270)" />
+    <ellipse cx="0" cy="-26" rx="10" ry="20" transform="rotate(315)" />
+  </g>
+  <g fill="#f3da92">
+    <ellipse cx="0" cy="-19" rx="4.5" ry="10" />
+    <ellipse cx="0" cy="-19" rx="4.5" ry="10" transform="rotate(90)" />
+    <ellipse cx="0" cy="-19" rx="4.5" ry="10" transform="rotate(180)" />
+    <ellipse cx="0" cy="-19" rx="4.5" ry="10" transform="rotate(270)" />
+  </g>
+  <circle r="9" fill="#000000" />
+</svg>
